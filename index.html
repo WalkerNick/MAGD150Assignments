@@ -5,7 +5,17 @@
   <h1>Your FINAL SKETCH Title</h1>
   <script type="text/processing" data-processing-target="mycanvas-final">
   
-  //create a boolean to track the stack, so we can toggle scenes based on the state.
+ 
+
+  </script>
+  <canvas id="mycanvas-final"></canvas>
+  <p>Description:  </p>
+        <br />
+        <br />
+  <h1>Assignment 5</h1>
+  <script type="text/processing" data-processing-target="mycanvas1">
+  
+   //create a boolean to track the stack, so we can toggle scenes based on the state.
 boolean mState = false;
 PImage img;
 PImage img2;
@@ -17,9 +27,9 @@ int x;
 int y;
 void setup(){
 size(800, 600);
-img = loadImage("pumpkin.jpg");
-img2 = loadImage("skeleton.jpg");
-img3 = loadImage("candycorn.jpg");
+img = loadImage("https://cloud.githubusercontent.com/assets/16195621/11823642/b0df72e2-a33a-11e5-84b1-97247b6cc0b2.jpg");
+img2 = loadImage("https://cloud.githubusercontent.com/assets/16195621/11823644/b2c9d534-a33a-11e5-8fdd-733ef0fc151d.jpg");
+img3 = loadImage("https://cloud.githubusercontent.com/assets/16195621/11823638/af3c0d74-a33a-11e5-9128-25b46cd2a46a.jpg");
 
 }
 // This draw loop has a basic If statement that executes one set of code (background and other functions)
@@ -52,16 +62,6 @@ void bang(){
 background(0);
 image(img2, 100, 100);
 }
-
-  </script>
-  <canvas id="mycanvas-final"></canvas>
-  <p>Description: On my FINAL SKETCH ASSIGNMENT</p>
-        <br />
-        <br />
-  <h1>Your Sketch1 Title</h1>
-  <script type="text/processing" data-processing-target="mycanvas1">
-  
-  <!-- Your sketch1 goes here -->
 
   </script>
   <canvas id="mycanvas1"></canvas>
